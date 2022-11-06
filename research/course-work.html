@@ -1,0 +1,179 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ziheng Ding</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- New GA4 tracking code, see https://support.google.com/analytics/answer/10271001#analyticsjs-enable-basic -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNJD50R0Z7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GNJD50R0Z7');
+    </script>
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ziheng Ding</h1>
+        <p>Undergraduate Student<br>The Hong Kong University of Science and Technology<br>Computer Engineering</p>
+    <h3><a href="https://blueheart22.github.io/">Home</a></h3>
+        <h3><a href="https://blueheart22.github.io/course-work.html">Course work</a></h3>
+        <h3><a href="https://blueheart22.github.io/Internship.html">Internship</a></h3>
+        <h3><a href="https://blueheart22.github.io/research.html">Research</a></h3>
+    <h3><a href="https://blueheart22.github.io/research/CV.pdf">CV</a></h3>
+        <h3><a href="https://github.com/blueheart22">Code</a></h3>
+        <h3><a href="https://blueheart22.github.io/personal.html">Personal</a></h3>
+    <b>Social</b><br>
+        <div class="social-row">
+          <a href="mailto:dingziheng33@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+          <a href="http://github.com/blueheart22"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+        </div>
+	<br>
+    <p><b>Contact:</b><br>Clear Water Bay<br>Kowloon, Hong Kong</p>
+    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/blueheart22">Ziheng Ding</a></small></p>
+      </header>
+      <section>
+
+    <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Work</h2><hr/>
+    <p style="margin:0"> <a style="margin:0; font-size:110%; font-weight:bold" >Design and implementation of an Omni-directional Quadruped Robot</a> <br> Supervisor: Prof. <a href="https://seng.hkust.edu.hk/about/people/faculty/ting-chuen-pong?id=99">Vinod Prasad</a> 
+	<b> <i>Date:</i></b>Nov. 2021 – Dec. 2021<br><br>
+	<a href="https://blueheart22.github.io/research/four-feet-robot.pdf"><i class="fa fa-fw fa-share-alt-square"></i>Report</a><br>
+	<a href="https://user-images.githubusercontent.com/113759719/200128411-77b483cc-ab7b-4f3d-8e77-d8e5bb18fa43.mp4"><i class="ai ai-fw ai-orcid-square"></i> Video</a><br>
+	<img src='four-feet-robot.jpg' height="120" width="210"/><br><button class="accordion">
+      Objective
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p>•Finished the designment of a 3D-printed robot that meets the expectation
+of moving omnidirectionally without turning its body.<br>
+• Used UCOSIII real time operating system on STM32 board to control 12 servo motors with three motors
+on each leg.<br>
+• Worked on CPU clock scheduling and multi-threaded processing; built the logic of the control algorithm
+based on gait analysis to make the 12 motors move synchronously to complete a smooth movement.<br>
+• Decided the algorithm's step size is at the beginning of each movement depending on the angle of the
+movement relative to the starting location; did repetitive tests to meet the project’s requirement. </p></div><br>
+    <hr/>
+
+    <p style="margin:0"> <a style="margin:0; font-size:110%; font-weight:bold" >Design and implementation of an autonomous tracking car</a> <br> Supervisor: Prof. <a href="https://eermurch.home.ece.ust.hk/">Ross Murch</a> <b> <i>Date:</i></b> Mar. 2020 – May. 2020 <br><br>
+	<a href="https://blueheart22.github.io/research/Project-report-DingZiheng.pdf"><i class="fa fa-fw fa-share-alt-square"></i>Report</a><br>
+	<img src='car.jpg' height="120" width="210"/><img src='map.jpg' height="120" width="210"/><br><button class="accordion">
+      Objective
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> •	Finished the logic and programming part of the design of a robot car which was expected to be able to complete the tasks including going along the track, choosing the correct split to go, turning in the 90 degrees angles, and stopping at the end; did the troubleshooting and completed the demo successfully<br>
+•	Adapted the car to different road conditions, including straight lines, arcs, forks, and sharp turns; made sure the car was moving smoothly on most occasions though it got stuck in a sharp turn<br>
+•	Found out the essence problem underlines the car’s failure in crossing the sharp turn, token the limitation of the car sensor into consideration and adopted differentiated steering (used different motor speeds on wheels of each side of the car when cross the sharp turn) in the troubleshooting. </p></div>
+    <div></div><br>
+	<hr/>
+
+    <p style="margin:0"> <a style="margin:0; font-size:110%; font-weight:bold" >Design and implementation of a propeller car</a> <br> Supervisor: Prof. <a href="https://seng.hkust.edu.hk/about/people/faculty/ting-chuen-pong?id=99">Ting Chuen PONG</a> <b> <i>Date:</i></b> Mar. 2020 – Jun. 2020 <br>
+	<br>
+	<a href="https://user-images.githubusercontent.com/113759719/200169497-7c71510e-1f35-4932-9b41-c331dbb3c354.mp4"><i class="ai ai-fw ai-orcid-square"></i> Video-Run</a><a href="https://user-images.githubusercontent.com/113759719/200169396-114143ee-a750-4b01-8acb-2877fc617428.mp4"><i class="ai ai-fw ai-orcid-square"></i> Video-Introduction</a><a href="https://user-images.githubusercontent.com/113759719/200169223-eb847cde-5f18-4a11-bc55-6f790a091c25.mp4"><i class="ai ai-fw ai-orcid-square"></i> Video-APP</a><br>
+	<img src='car-2.jpg' height="120" width="210"/><br>
+	<button class="accordion">
+      Objective
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> •	Designed a car that was driven by two propellers and was able to advance and turn<br>
+• Remotely controlled the car by an app on my smartphone and established the connection through the
+Bluetooth<br>
+• Overcame the major obstacles of the work, the limitation of power and material, by the utilize of bearing
+and balanced the load on wheels; improved the car’s performance. Figured out that because the power
+provided by propellers was weak, the car must be constructed with light enough materials and have as less
+friction as possible. </p></div>
+	<div></div><br><hr/>
+
+	
+    <p style="margin:0"> <a style="margin:0; font-size:110%; font-weight:bold" >Path-search algorithm design</a> <br> Supervisor: Prof. <a href="https://seng.hkust.edu.hk/about/people/faculty/ting-chuen-pong?id=99">Fangzhen Lin</a> <b> <i>Date:</i></b>Apr. 2022 – May. 2022<br>
+	<a href="https://blueheart22.github.io/research/path-search.pdf"><i class="fa fa-fw fa-share-alt-square"></i>Report</a><br>
+	<img src='path-find.gif' height="120" width="210"/><br>
+	<button class="accordion">
+      Objective
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> • Finished the path-search algorithm design with the aim to determine the shortest route from two random
+places to their respective endpoints in a 256x256 obstructed map scene in less than one second<br>
+• Within the scenario containing two agents, used bidirectional A* in the code implementation to save
+computation and meet the computation time limit.<br>
+• The trigger decision of re-route finding was designed so that when the distance between two agents falls
+below a certain threshold, the path would be recalculated after each move to avoid collision. </p></div>
+    <div></div>
+	<br>
+
+	<script src="javascripts/scale.fix.js"></script>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
+</html>
